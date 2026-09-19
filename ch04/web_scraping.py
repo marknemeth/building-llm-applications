@@ -20,6 +20,5 @@ def web_scrape(url: str) -> str:
             return page_text
         else:
             return f"Failed to retrieve the webpage: Status code {response.status_code}"
-    except Exception as e:
-        print(e)
-        return f"Failed to retrieve the webpage: {e}"
+        print(f"Error occurred while scraping {url}: {e}")
+        return ""
