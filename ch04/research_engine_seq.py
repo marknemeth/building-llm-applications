@@ -89,5 +89,5 @@ research_report = llm.invoke(research_report_prompt)
 
 print(f'stringified_summary_list={stringified_summary_list}')
 print(f'merged_result_summaries={appended_result_summaries}')
-print(f'research_report={research_report}')
-print(f'Finished report on {question}')
+print(f'\n\n\nresearch_report={research_report}')
+print(f'\n\n\nFinished report on {question}')
