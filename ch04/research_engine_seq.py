@@ -9,8 +9,8 @@ from prompts import (
     RESEARCH_REPORT_PROMPT_TEMPLATE
 )
 
-NUM_SEARCH_QUERIES = 2
-NUM_SEARCH_RESULTS_PER_QUERY = 3
+NUM_SEARCH_QUERIES = 5
+NUM_SEARCH_RESULTS_PER_QUERY = 4
 RESULT_TEXT_MAX_CHARACTERS = 10000
 question = 'What can I see and do in the Spanish town of Astorga?'
 

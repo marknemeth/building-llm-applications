@@ -26,7 +26,7 @@ prompt = prompt_template.format(user_question="what's up?")
 
 #### Web search
 from langchain.utilities import DuckDuckGoSearchAPIWrapper
-NUM_SEARCH_RESULTS = 1
+NUM_SEARCH_RESULTS = 4
 question = 'What can I see and do in the Spanish town Astorga'
 
 ###

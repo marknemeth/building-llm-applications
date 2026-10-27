@@ -1,7 +1,8 @@
 from chain_5_1 import web_research_chain
 
 # test chain invocation
-question = 'What can I see and do in the United States town of Ostrander, Ohio?'
+# question = 'What can I see and do in the United States town of Ostrander, Ohio?'
+question = "What are the top 5 vaccuum cleaners under $1,000 used for plush carpet with multi-height settings, taking care of pet hair with multiple tools, can get under chairs and tables, and are durable and reliable?"
 
 web_research_report = web_research_chain.invoke(question)
 print(web_research_report)
